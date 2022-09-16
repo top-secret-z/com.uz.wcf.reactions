@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
+	<import>
+		<page identifier="com.uz.wcf.Reactions">
+			<pageType>system</pageType>
+			<controller>wcf\page\ManageReactions</controller>
+			<handler>wcf\system\page\handler\ManageReactionsHandler</handler>
+			<name language="de">Reaktionen</name>
+			<name language="en">Reactions</name>
+			<permissions>admin.user.canViewReactions</permissions>
+			<options>module_like</options>
+			
+			<content language="en">
+				<title>Reactions</title>
+			</content>
+			<content language="de">
+				<title>Reaktionen</title>
+			</content>
+		</page>
+	</import>
+</data>
