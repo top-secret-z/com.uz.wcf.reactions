@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.admin.user.reactions"><![CDATA[Reaktionen]]></item>
-		<item name="wcf.acp.group.option.admin.user.canDeleteReactions"><![CDATA[Kann Reaktionen löschen]]></item>
-		<item name="wcf.acp.group.option.admin.user.canViewReactions"><![CDATA[Kann Reaktionen sehen]]></item>
-	</category>
-	
-	<category name="wcf.clipboard">
-		<item name="wcf.clipboard.item.com.uz.wcf.reaction.delete"><![CDATA[Löschen ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.uz.wcf.reaction.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten Reaktionen{else}diese Reaktion{/if} wirklich löschen?]]></item>
-		<item name="wcf.clipboard.label.com.uz.wcf.reaction.marked"><![CDATA[{if $count == 1}Eine Reaktion{else}{#$count} Reaktionen{/if}]]></item>
-	</category>
-	
-	<category name="wcf.reactions">
-		<item name="wcf.reactions.manage.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} die Reaktion wirklich löschen?]]></item>
-		<item name="wcf.reactions.manage.allObjects"><![CDATA[Alle Inhalte]]></item>
-		<item name="wcf.reactions.manage.allReactions"><![CDATA[Alle Reaktionen]]></item>
-		<item name="wcf.reactions.manage.filter"><![CDATA[Filter]]></item>
-		<item name="wcf.reactions.manage.guest"><![CDATA[Gast]]></item>
-		<item name="wcf.reactions.manage.guestReceiver"><![CDATA[Gast-Empfänger]]></item>
-		<item name="wcf.reactions.manage.noItems"><![CDATA[Es wurden keine sichtbaren Reaktionen gefunden.]]></item>
-		<item name="wcf.reactions.manage.object.unknown"><![CDATA[Unbekannter Inhalt]]></item>
-		<item name="wcf.reactions.manage.page"><![CDATA[Reaktionen]]></item>
-		<item name="wcf.reactions.manage.page.description"><![CDATA[Es werden abhängig von den Rechten nicht alle Reaktionen angezeigt.]]></item>
-		<item name="wcf.reactions.manage.receiver"><![CDATA[Empfänger]]></item>
-		<item name="wcf.reactions.manage.time"><![CDATA[Zeit]]></item>
-		<item name="wcf.reactions.manage.title"><![CDATA[Titel]]></item>
-		<item name="wcf.reactions.manage.type"><![CDATA[Art]]></item>
-		<item name="wcf.reactions.manage.user"><![CDATA[Benutzer]]></item>
-		
-	</category>
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.admin.user.reactions"><![CDATA[Reaktionen]]></item>
+        <item name="wcf.acp.group.option.admin.user.canDeleteReactions"><![CDATA[Kann Reaktionen löschen]]></item>
+        <item name="wcf.acp.group.option.admin.user.canViewReactions"><![CDATA[Kann Reaktionen sehen]]></item>
+    </category>
+
+    <category name="wcf.clipboard">
+        <item name="wcf.clipboard.item.com.uz.wcf.reaction.delete"><![CDATA[Löschen ({#$count})]]></item>
+        <item name="wcf.clipboard.item.com.uz.wcf.reaction.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten Reaktionen{else}diese Reaktion{/if} wirklich löschen?]]></item>
+        <item name="wcf.clipboard.label.com.uz.wcf.reaction.marked"><![CDATA[{if $count == 1}Eine Reaktion{else}{#$count} Reaktionen{/if}]]></item>
+    </category>
+
+    <category name="wcf.reactions">
+        <item name="wcf.reactions.manage.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} die Reaktion wirklich löschen?]]></item>
+        <item name="wcf.reactions.manage.allObjects"><![CDATA[Alle Inhalte]]></item>
+        <item name="wcf.reactions.manage.allReactions"><![CDATA[Alle Reaktionen]]></item>
+        <item name="wcf.reactions.manage.filter"><![CDATA[Filter]]></item>
+        <item name="wcf.reactions.manage.guest"><![CDATA[Gast]]></item>
+        <item name="wcf.reactions.manage.guestReceiver"><![CDATA[Gast-Empfänger]]></item>
+        <item name="wcf.reactions.manage.noItems"><![CDATA[Es wurden keine sichtbaren Reaktionen gefunden.]]></item>
+        <item name="wcf.reactions.manage.object.unknown"><![CDATA[Unbekannter Inhalt]]></item>
+        <item name="wcf.reactions.manage.page"><![CDATA[Reaktionen]]></item>
+        <item name="wcf.reactions.manage.page.description"><![CDATA[Es werden abhängig von den Rechten nicht alle Reaktionen angezeigt.]]></item>
+        <item name="wcf.reactions.manage.receiver"><![CDATA[Empfänger]]></item>
+        <item name="wcf.reactions.manage.time"><![CDATA[Zeit]]></item>
+        <item name="wcf.reactions.manage.title"><![CDATA[Titel]]></item>
+        <item name="wcf.reactions.manage.type"><![CDATA[Art]]></item>
+        <item name="wcf.reactions.manage.user"><![CDATA[Benutzer]]></item>
+
+    </category>
 </language>
